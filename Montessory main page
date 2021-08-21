@@ -1,0 +1,444 @@
+<html>
+   <head>
+       <title>Детский сад Монтессори г. Белоярский</title>
+	   <meta name="description" content="Группа детского сада Монтессори в городе Белоярский. Преподаватель: Бахарева В. Г." />
+	   <meta name="author" content="G. A. Bakharev" />
+	   <meta name="keywords" content="Монтессори, сад, занятия" />
+	   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=optional" rel="stylesheet" />
+	   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=optional" rel="stylesheet" />
+	   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+	   <style>
+	   
+	   /*----------------Общие настройки-------------------*/
+	   
+	   body{
+	        color: #5E0026;
+			font-family: 'Ubuntu', sans-serif;
+			background-image: url("images/back.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			position: relative;
+			top: 155px;}
+	    a{
+		  text-decoration: none;}
+		  
+		header, nav, section, article, aside, footer{
+		       display: block;}
+		
+	   /*--------------Общие настройки КОНЕЦ------------*/
+		
+	   /*--------------------Макет----------------------*/
+	   
+	   /*---------Наверх---------*/
+	   div.up{
+	          height: 100%;
+			  width: 10%;
+			  position: fixed;
+			  top: 0px;
+			  left: 0px;}
+	   div.up a{
+			float: left;
+			height: 100%;
+			width: 100%;
+			background-color: #DCB5ED;
+			background-color: rgba(220,181,237,0.3);
+			color: #645F66;
+			text-align: center;
+			padding: 5px;}
+	   div.up a:hover{
+	            background-color: rgba(220,181,237,0.5);
+				color: #6A3B7D;}
+	    
+	   /*---------Наверх КОНЕЦ---------*/
+	   
+	   /*---------Обёртка---------*/
+	   
+	   #wrapper{
+	            width: 940px;
+				margin: 0 auto;
+				background-color: #C9BEE3;
+				background-color: hsla(78.8, 74.5, 89, 0.9);
+				background-color: rgba(201, 190, 227, 0.7);}
+				
+		/*---------Обёртка КОНЕЦ---------*/
+		
+		/*---------Шапка---------*/	
+		
+		header{
+		      background-color: #9578DD;
+			  background-image: url("images/header.jpg");
+			  background-position: 0px -200px;
+			  position: fixed;
+			  top: 0px;
+			  width: 940px;
+			  height: 163px;}
+			  
+	    hgroup{
+		       float: left;
+			   width: 55%;
+			   height: 110px;}   
+	    h1{
+		   margin-bottom: -15px;}
+		.button{
+		       float: right;
+			   width: 150px;
+			   height: 50px;			   
+			   padding: 4px;
+               position: relative;
+               top: 40px;
+               right: 45px;
+               bottom: 30px;
+			   display: inline-block;}
+			   
+        nav{
+		    clear: both;
+			background-color: #AB96E0;
+			background-image: url("images/nav.png");
+			background-position: -30px -30px;
+			height: 35px;
+			position: relative;
+			top: 18px;}	
+			
+		ul.nav li{
+		          display: inline-block;
+				  padding: 5px 10px 10px 10px;
+				  border-right: 1px solid purple;
+				  height: 10px;
+				  text-align: center;
+				  margin-top: 6px;}
+		ul.nav li:last-child{
+		                     border-right: 0px solid purple;}
+							 
+		/*---------Шапка КОНЕЦ---------*/
+		
+		/*---------Основной контент---------*/
+		
+		section.intro{
+		        float:left;
+				width: 680px;
+				margin: 10px 20px 10px 10px;}
+		aside{
+		      float: left;
+			  width: 200px;
+			  margin: 10px;
+			  padding: 5px;
+			  background-color: #dbbfce;}
+        aside h3{
+		         text-align: center;}
+		aside li{
+		         padding: 5px;}
+	    .hcard{
+		       clear:both;}
+			   
+        article{
+		        clear: both;
+				overflow: auto;
+				width: 100%;
+				height: 275px;}
+	    article p, article h3{
+		          margin-top: 30px;}
+        				  
+		figure{
+		       float: left;
+			   width: 330px;
+			   height: 215px;
+			   padding: 5px;
+			   margin: 20px;}
+		figcaption{
+		       margin-top: 5px;}
+        img{
+		    width: 330px
+			height: 220px;}
+		
+    	/*---------Дно---------*/
+        footer{
+		       width: 100%
+			   overflow: auto;
+			   clear: both;
+			   background-color: #F0AFED;
+			   position: relative;
+			   bottom: -7px;}
+        .hcard{
+		       float: left;
+			   padding: 10px 0px 0px 10px;}
+        .legalblock{
+		            float: right;
+					padding: 10px 10px 0px 0px;}
+        .author{
+		        clear: both;
+				padding-top: 10px;
+				text-align: center;}
+  				
+		/*--------------------Оформление----------------------*/
+        
+		/*---------Шапка (ОФОРМЛЕНИЕ)---------*/
+		
+        hgroup{
+		       background-image: url("images/logo.png");
+			   background-repeat: no-repeat;
+			   background-position: 20px 10px;
+			   padding-left: 120px;}	
+        h1{
+		   font-size: 2em;
+		   text-transform: uppercase;
+		   font-family: 'PT Serif', Georgia, serif;}
+		.m{
+		   color: #FFFF04;}
+		.o1{
+		    color:  #48DE11;}
+		.n{
+		    color:  #FF5A14;}
+	    .t{
+		   color: #8BB8D5;}
+		.e{
+		   color: #FF2A14;}
+		.s1{
+		   color: #1AA7D6;}
+		.s2{
+		   color: #F33B63;}
+		.o2{
+		   color: #48DE11;}
+		.r{
+		   color: #F46D29;}
+		.i{
+		   color: #FFFF04;}
+        h2{
+		   font-size: 0.9em;
+		   font-family: Georgia, serif;
+		   color: #E6C7DE;}
+        
+	    .button {
+		         font-family: 'Ubuntu', sans-serif;
+                 font-size: 1.1em;
+			     font-weight: bold;
+		         color: #26151C;
+				 background-color: #FFFF8C;
+				 border: 1px solid black;
+				 text-align: center;
+				 -moz-border-radius: 25px;
+				 -webkit-border-radius: 25px;
+				 border-radius: 25px;
+				 border-top: 1px solid #313131;
+				 border-right: 1px solid #313131;
+				 border-bottom: 4px solid #313131;
+				 border-left: 1px solid #313131;}
+
+        .button:hover{
+				 color: #009521;}
+		.button:active{
+		              color: #26151C;
+		              background-color: #F5F564;
+                      border-top: 1px solid #313131;
+				      border-right: 1px solid #313131;
+				      border-bottom: 1px solid #313131;
+				      border-left: 1px solid #313131;
+					  box-shadow: inset 0px 4px 4px #313131;
+					  margin-top: -2px;}
+					 
+		.home{
+		       color: #5E1350;
+			   font-weight: bold;}		  
+  
+	    .nav a{
+		       color: #4A1C6F;}
+		.nav a:hover {
+		              color: #DE2227;
+	                  text-shadow: 1px -2px 3px #FD7D80;}
+		
+				 
+		/*---------Шапка (ОФОРМЛЕНИЕ) КОНЕЦ---------*/
+		
+		/*---------Основной контент (ОФОРМЛЕНИЕ)---------*/
+		
+        .other{
+		       list-style-image: url("images/cubes.png");}
+        
+		.other a{
+		         color: #4A1C6F;}
+		.other a:hover{
+		              color: #DE2227;
+	                  text-shadow: 1px -2px 3px #FD7D80;}
+
+        p img{
+		      vertical-align: middle;}
+			  
+		figcaption{
+		        color: #200226;
+				text-align: center;
+				padding: 2px;
+				text-transform: uppercase;}
+		.theme{
+		       color: #2D273D;
+			   letter-spacing: 0.1em;}
+		.about{
+		       color: #CC184E;
+			   color: #200226;
+			   line-height: 1.4em;}
+	    .toarticle{
+		           color: #200226;
+				   text-align: right;
+				   font-weight: bold;
+		           float: right;
+				   width: 100px;
+				   padding: 7px 0px 0px 7px;
+				   border-right: 3px solid #200226;
+				   background-color: #dbbfce;
+				   display: inline-block;}
+
+	    .toarticle:hover{
+		               font-size: 105%;
+					   text-shadow: 1px -2px 3px #515C83;}
+		/*---------Основной контент (ОФОРМЛЕНИЕ) КОНЕЦ---------*/
+		
+		/*---------Дно (ОФОРМЛЕНИЕ)---------*/
+		footer{
+		       color: #200226;
+			   font-family: 'PT Serif', serif;}
+		.hcard{
+		       border-left: 4px solid #996D97;
+			   margin: 5px;
+			   padding: 0px 3px 3px 3px;
+			   line-height: 1.4em;}
+		
+		.legalblock{
+		            background-image: url("images/legal.png");
+					background-repeat: no-repeat;
+					background-position: left center;}
+		.legalblock li{
+		           list-style-type: none;
+				   padding-top: 3px;
+				   padding-left: 50px;
+				   font-size: 110%;}
+		.legalblock li a{
+		                 color: #EB3A23;}
+		.legalblock li a:hover{
+		                 color: #2A608A;}
+	   </style>
+	</head>
+    <body>
+	    
+	   <div id="wrapper">
+	   
+	          <div class="up">
+	              <a href="#top">
+	                <p>&uarr; Наверх</p>
+	              </a>
+	          </div> 
+	   
+	          <header id="header"> <!--Шапка-->
+			  
+			    <hgroup>   <!--Блок оглавления-->
+			    <h1><span class="m">М</span>
+				<span class="o1">о</span>
+				<span class="n">н</span>
+				<span class="t">т</span>
+				<span class="e">е</span><span class="s1">
+				с</span>
+				<span class="s2">с</span>
+				<span class="o2">о</span>
+				<span class="r">р</span>
+				<span class="i">и</span></h1>
+			    <h2>Группа на базе детского сада Снегирёк г. Белоярский</h2> 
+			    </hgroup>
+			  
+                 <!--Кнопка-->
+			       <a href="" class="button"><img src="images/pen.png" alt="" width="24" height="24" /><br /> Запись в группу</a>
+                 <!--Кнопка КОНЕЦ-->			 
+			  
+			  
+			    <nav> <!--Навигация-->
+			       <ul class="nav">
+				     <li class="home"><a href="">Главная</a></li>
+				     <li><a href="">Статьи</a></</li>
+				     <li><a href="">Воспитатель</a></</li>
+				     <li><a href="">Запись</a></</li>
+				     <li><a href="">Контакты</a></</li>
+				   </ul>
+			    </nav><!--КОНЕЦ Навигация-->
+			  
+			  </header> <!--КОНЕЦ Шапка-->
+			  
+		      <section class="intro"><!--Введение-->
+			  
+			       
+				   <article>
+				       <figure>
+					      <img src="images/method.jpg" alt="" />
+				          <figcaption>О методике</figcaption>
+					   </figure>
+			            <h3 class="theme">Главное о педагогическом методе Монтессори</span></h3>
+						<p class="about">История метода. Принципы и идеи. В данной статье помогаем понять что, как и почему.</p>
+						<p><a href="" class="toarticle">Читать <img src="images/reading.png" alt="" width="24px" height="24px" /> </a></p>
+				   </article>
+				   
+				   
+				   <article>
+				       <figure>
+					      <img src="images/classroom.jpg" alt="Игровой зал" />
+				          <figcaption>Игровой зал</figcaption>
+						</figure>
+			            <h3 class="theme">Методика в действии</span></h3>
+						<p class="about">Игровая деятельность - это основная деятельность дошкольников, помогающая им развиваться. Рассказываем про обычный день в группе.</p>
+						<p><a href="" class="toarticle">Читать <img src="images/reading.png" alt="" width="24px" height="24px" /> </a></p>
+				   </article>
+				   
+				   <article>
+				       <figure>
+					      <img src="images/teacher.jpg" alt="Воспитатель" />
+				          <figcaption>Воспитатель</figcaption>
+						</figure>
+			            <h3 class="theme">О воспитателе</span></h3>
+						<p class="about">Воспитатель должен успевать уделять внимание всем детям. Он выступает в роли помощника для ребёнка, а не судьи. Здесь вы подробнее узнаете информацию о своём воспитателе. </p>
+						<p><a href="" class="toarticle">Читать <img src="images/reading.png" alt="" width="24px" height="24px" /> </a></p>
+				   
+		     </section> <!--КОНЕЦ Введение-->
+			 
+			 <aside> <!--Боковая панель-->
+			 
+			  <section class="other">
+			      <h3>Другие разделы</h3>
+			      <ul>
+				     <li><a href="">Родителям</a></li>
+				     <li><a href="" target="_blank">Детский сад "Снегирёк" (открывается в отдельной вкладке)</a></</li>
+				     <li><a href="">Учебный материаил</a></</li>
+				     <li><a href="">Сертификаты</a></</li>
+				     <li><a href="">Галерея</a></</li>
+			      </ul>
+			  </section>
+			  
+			 </aside> <!--КОНЕЦ Боковая панель-->
+			 
+			 <footer><!--Дно-->
+			 
+			   <div class="hcard"><!--Визитка-->
+			         <div class="fn org">Детская группа Монтессори д/c Снегирёк</div><!--Организация-->
+					 <div class="adr"><!--Адрес-->
+					 <div class="street-address">3-ый микрорайон, 32</div>
+					 <div>
+					    <span class="locality">г. Белоярский</span>
+						<abbr class="region" title="Ханты-Мансийский автономный округ">ХМАО</abbr>
+						<span class="postal-code">628162</span>
+					 </div>
+					 <div class="country-name">Россия</div>
+			         </div><!--КОНЕЦ Адрес-->
+					 <div>Телефон: <span class="tel">+7 (922) 651-74-31</span></div>
+					 <div>Email:<span class="email"> info@gmail.com</span></div>
+			    </div><!--КОНЕЦ Визитка-->
+				
+				<section class="legalblock"><!--Правовой раздел-->
+				      <ul>
+					     <li><a href="">Политика конфиденциальности</a></li>
+						 <li><a href="">Правовая информация</a></li>
+						 <li><a href="">Закон о защите прав потребителей</a></li>
+					  </ul> 
+				</section><!--КОНЕЦ Правовой раздел-->
+				
+				<address class="author"><!--Автор-->
+				        <p>Автор: Бахарев Г. А. <a href="mailto:russellskettle@gmail.com"> russellskettle@gmail.com</a> &copy; Все права защищены, 2020</p>
+				</address><!--КОНЕЦ Автор-->
+						
+			 </footer><!--КОНЕЦ Дно-->	
+			 
+        </div><!--КОНЕЦ wrapper-->
+	</body>
+</html>
